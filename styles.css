@@ -1,0 +1,96 @@
+body {
+    background-image: url(photos/HD.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4fc3dc;
+    color: greenyellow;
+    padding: 10px;
+    text-align: center;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e8491d;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.button:hover{
+    background-color: lightgreen;
+}
+
+.sign-in:hover{
+    background-color: aqua;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-content {
+    height: 500px;
+    background-size: cover;
+}
+
+.movie-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.movie-card img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #4fc3dc44;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.sign-in{
+    margin-left: 1200px;
+    margin-top: 25px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e8491d;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
